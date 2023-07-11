@@ -23,3 +23,7 @@ spring:
     database: mysql
     database-platform: org.hibernate.dialect.MySQLDialect
 
+management:
+  tracing:
+    sampling:
+      probability: 1.0
