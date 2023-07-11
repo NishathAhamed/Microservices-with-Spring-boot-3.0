@@ -24,5 +24,9 @@ spring:
       ddl-auto: create
     database: mysql
     database-platform: org.hibernate.dialect.MySQLDialect
+application:
+  config:
+    students-url: http://localhost:8090/api/v1/students
+
 
 
